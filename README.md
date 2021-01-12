@@ -8,14 +8,6 @@ A countdown program.
 
 ![](program.gif)
 
-## Repository Structure
-
-```
-ExamCountdown
-    |-中考倒计 Main Program
-    |-Help.rtf Help Documentation
-```
-
 You can find the release version of this program in the [Release Page](https://github.com/LogCreative/ExamCountdown/releases).
 
 You can also get the help documentation on the [Wiki Page](https://github.com/LogCreative/ExamCountdown/wiki).
@@ -36,6 +28,8 @@ Also, the original acquired version of .NET Framework is 3.5, which causes runti
 I used .NET Framework 3.5 because it will also run well on Windows XP, but Microsoft suspended the support of that OS version years before. This also make the compilation obstacle sense.
 
 Use `100%` scaling to open Visual Studio, otherwise it will damage the vbproj file inevitible so that the control cannot be displayed in a correct scaling.
+
+You can find the required help documentation file `Help.rtf` in the release package.
 
 ## Copyright
 

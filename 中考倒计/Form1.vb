@@ -1,4 +1,8 @@
-﻿Imports System.IO
+﻿' Exam Countdown
+' Log Creative 2021 redist version
+' (LC) LogCreative 2014
+
+Imports System.IO
 Public Class Form1
     Dim Fname As String
     Dim FExtName As String
