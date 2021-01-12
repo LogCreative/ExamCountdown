@@ -25,9 +25,9 @@ It is not so popular for Windows x64 architecture at the time when this program 
 
 Also, the original acquired version of .NET Framework is 3.5, which causes runtime error on modern Windows 10 system due to dependency version inconsistency. In order to compile more smoothly, I switched the required version to `4.0`, which will meet the demand perfectly.
 
-I used .NET Framework 3.5 because it will also run well on Windows XP, but Microsoft suspended the support of that OS version years before. This also make the compilation obstacle sense.
+I used .NET Framework 3.5 because it will also run well on Windows XP, but Microsoft suspended the support of that OS version years before. This also makes the compilation obstacle sense.
 
-Use `100%` scaling to open Visual Studio, otherwise it will damage the vbproj file inevitible so that the control cannot be displayed in a correct scaling.
+Use `100%` scaling to open Visual Studio, otherwise it will damage the vbproj file inevitibly so that the control cannot be displayed in a correct scaling.
 
 You can find the required help documentation file `Help.rtf` in the release package.
 
