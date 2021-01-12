@@ -50,10 +50,14 @@ Public Class Form1
                 End Try
             End If
         End If
-        Me.RichTextBoxSaying.LoadFile(Application.StartupPath & My.Settings.SayingN)
+        Try
+            Me.RichTextBoxSaying.LoadFile(Application.StartupPath & My.Settings.SayingN)
+            LabelByte.Text = "字符数：" + CStr(RichTextBoxSaying.TextLength)
+            LabelSave.Text = "已保存"
+        Catch ex As Exception
+
+        End Try
         Timer1.Start()
-        LabelByte.Text = "字符数：" + CStr(RichTextBoxSaying.TextLength)
-        LabelSave.Text = "已保存"
         If My.Settings.first = True Then
             My.Settings.first = False
             NewFoc.Show()

@@ -5,7 +5,11 @@
     Private Sub Form4_Load(sender As Object, e As EventArgs) Handles MyBase.Load
         Dim fname As String
         fname = Application.StartupPath + "/Help.rtf"
-        Me.RichTextBox1.LoadFile(fname, RichTextBoxStreamType.RichText)
+        Try
+            Me.RichTextBox1.LoadFile(fname, RichTextBoxStreamType.RichText)
+        Catch ex As Exception
+            Me.RichTextBox1.Text = "没有找到帮助文件"
+        End Try
     End Sub
 
     Private Sub Form4_SizeChanged(sender As Object, e As EventArgs) Handles Me.SizeChanged
